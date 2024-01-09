@@ -1,0 +1,144 @@
+.text h1 {
+    font-size: 2.5em; 
+    color: white;
+}
+
+.text h3 {
+    font-size: 1.5em; 
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 3, 231, 0.5); 
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+
+      .underline a {
+        position: relative;
+      }
+      .underline a:before {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        height: 3px;
+        width: 100%;
+        background: #4070f4;
+        border-radius: 50px;
+        transition: transform 0.2s linear;
+        transform: scale(0);
+      }
+      .underline a:hover:before {
+        transform: scaleX(1);
+      }
+
+      .showcase {
+        position: relative;
+      }
+
+      video {
+        width: 100%;
+        height: 100%;
+        autoplay: true;
+        muted: true;
+        loop: true;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(
+          0,
+          0,
+          0,
+          0.5
+        ); /* Adjust the overlay color and transparency as needed */
+      }
+
+      .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .text h1 {
+        width: 550px;
+        height: 64px;
+        color: white;
+        margin: 0;
+      }
+
+      .text h3 {
+        width: 550px;
+        height: 32px;
+        color: white;
+        margin: 0;
+      }
+      .text p {
+        width: 525px;
+        height: 58px;
+        color: white;
+      }
+      .apply-now-button {
+        display: inline-block;
+        width: 214px;
+        height: 71px;
+        background-color: #3498db;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 71px;
+        margin-top: 20px;
+      }
+      .social {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 267px;
+        height: 46px;
+      }
+
+      .social li {
+        width: 47px;
+        height: 46px;
+      }
+
+      .social a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 23px;
+        height: 23px;
+        color: white;
+        text-decoration: none;
+        border-radius: 50%;
+        background-color: #333;
+      }
+      .t-size{
+        font-size: 100px;
+      }
+
+      button{
+box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+button:hover{
+box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;}
